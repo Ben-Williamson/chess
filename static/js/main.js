@@ -1,4 +1,4 @@
-url ="http://benwilliamson.org:5000/";
+url ="http://localhost:5000/";
 
 labelsX = ["a", "b", "c", "d", "e", "f", "g", "h"];
 labelsY = ["1", "2", "3", "4", "5", "6", "7", "8"];

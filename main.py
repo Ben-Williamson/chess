@@ -4,6 +4,7 @@ app = Flask(__name__, static_url_path='/static')
 board = chess.Board()
 
 
+
 @app.route('/')
 def hello():
     return app.send_static_file('index.html')
@@ -32,7 +33,7 @@ def reset():
 
 def get_message():
     s = board.fen()
-    time.sleep(0.5)
+    time.sleep(0.1)
     return s
 
 @app.route('/stream')
